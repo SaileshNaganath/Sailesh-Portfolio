@@ -1,0 +1,56 @@
+
+
+:root {
+  
+  
+
+  --primary-color: hsl(0,0%,6%);
+  --secondary-color: #ec4e39;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #999999;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+  cursor: none;
+  
+}
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+@media screen and (min-width:980px){
+section{
+  scroll-snap-align: center;
+}
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff2d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #13162b;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #323651;
+}
