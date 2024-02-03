@@ -19,7 +19,7 @@ const Single = ({ item  }) => {
       <div className="container app__flex">
         <div className="wrapper ">
           <div className="imageContainer" ref={ref}>
-          <img src={urlFor(item.imgUrl)} alt={item.name} />
+          <img src={urlFor(item.imgUrl)} alt="item-name" />
           </div>
           <motion.div className="textContainer " style={{y}}>
             <h2>{item.title}</h2>
