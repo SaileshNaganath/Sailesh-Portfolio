@@ -1,26 +1,26 @@
-import email from '../assets/email.png';
+import email from '../assets/email.webp';
 
-import css from '../assets/css.png';
+import css from '../assets/css.webp';
 
-import html from '../assets/html.png';
-import javascript from '../assets/javascript.png';
-import mu5 from '../assets/mu5.png';
-import node from '../assets/node.png';
+import html from '../assets/html.webp';
+import javascript from '../assets/javascript.webp';
+import mu5 from '../assets/mu5.webp';
+import node from '../assets/node.webp';
 
-import react from '../assets/react.png';
-import redux from '../assets/redux.png';
-import sass from '../assets/sass.png';
+import react from '../assets/react.webp';
+import redux from '../assets/redux.webp';
+import sass from '../assets/sass.webp';
 
 
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about01 from '../assets/about01.webp';
+import about02 from '../assets/about02.webp';
+import about03 from '../assets/about03.webp';
+import about04 from '../assets/about04.webp';
 
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.webp';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.webp';
 
 
 export default {
