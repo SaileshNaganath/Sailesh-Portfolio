@@ -1,9 +1,6 @@
 
 
 :root {
-  
-  
-
   --primary-color: hsl(0,0%,6%);
   --secondary-color: #ec4e39;
   --black-color: #030303;
@@ -11,6 +8,7 @@
   --gray-color: #999999;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --button-color:#ff1e00cb;
 }
 
 * {
