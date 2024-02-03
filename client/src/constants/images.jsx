@@ -19,7 +19,7 @@ import about03 from '../assets/about03.webp';
 import about04 from '../assets/about04.webp';
 
 import profile from '../assets/profile.webp';
-import circle from '../assets/circle.svg';
+import circle from '../assets/circle.webp';
 import logo from '../assets/logo.webp';
 
 
