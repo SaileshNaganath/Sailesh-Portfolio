@@ -26,12 +26,12 @@ const Single = ({ item  }) => {
             <p>{item.description}</p>
             <div className='button-group '>
 
-            <a href={item.projectLink} target="_blank" rel="noreferrer">
+            <a href={item.projectLink}>
             <button>Demo</button>
             </a>
            
             
-            <a href={item.codeLink} target="_blank" rel="noreferrer">
+            <a href={item.codeLink}>
             <button>Code</button>
             </a>
 
