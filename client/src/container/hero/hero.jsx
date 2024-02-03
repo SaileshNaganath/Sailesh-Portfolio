@@ -43,18 +43,13 @@ const Hero = () => {
       />
       </motion.div>
 
-      <motion.div
-        whileInView={{opacity:1}}
-        whileHover={{ scale: 1.3 }}
-        transition={{ duration: 0.5, type: 'tween' }}
-        className='app__hero-circles'
-      >
+      <div className='app__hero-circles'>
        {[images.react, images.javascript, images.node].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
       ))}
-      </motion.div>
+      </div>
     </div>
   )
 }
